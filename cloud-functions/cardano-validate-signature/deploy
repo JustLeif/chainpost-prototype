@@ -1,0 +1,9 @@
+gcloud functions deploy cardano-validate-signature --gen2 \
+--runtime nodejs20 \
+--trigger-http \
+--project=chainpost \
+--region=us-central1 \
+--source=. \
+--entry-point=cardano-validate-signature \
+--ingress-settings=all \
+--allow-unauthenticated

@@ -10,7 +10,7 @@ This project demonstrates knowledge of Docker, Rust, actix_web, asynchronous pro
 ## Key Features
 
 ### Authenticate with a Cardano Wallet
-Use Lace, Yoroi, and Nami to sign a piece of data with your private keys to act as a login function! In my opinion this feature is awesome and should be more widely used in the Cardano Ecosystem.
+Use Lace, Yoroi, and Nami to sign a piece of data with your private keys to act as a login function! In my opinion this feature is awesome and should be more widely used in the Cardano Ecosystem. [Checkout the frontend!](./server/src/app/auth.rs) [Checkout out the backend!](./server/src/api/auth.rs)
 
 ### Create Posts
 Future plans for this project include using the chainpost.social interface to create social media posts on the Cardano (and possibly future others) blockchain!

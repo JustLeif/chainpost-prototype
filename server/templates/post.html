@@ -1,0 +1,20 @@
+<div id="main-content">
+
+<div class="bg-primary-500 text-white">
+   </div>
+    <div class="max-w-md mx-auto my-4 p-4 bg-white shadow-lg rounded-lg">
+    <form action="/api/post" method="post" hx-post="/api/post" hx-target="#response" hx-trigger="submit">
+        <div class="mb-4">
+            <label for="postText" class="block text-gray-700 text-sm font-bold mb-2">Your Post</label>
+            <textarea id="postText" name="postText" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="What's on your mind?"></textarea>
+        </div>
+        <button type="submit" class="bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            Post
+        </button>
+    </form>
+    <div id="response"></div>
+</div>
+
+</div>
+
+</div>
